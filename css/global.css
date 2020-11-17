@@ -8,7 +8,7 @@
 
 /* Fonts size */
 :root {
-    --primary-font: 68px;
+    --primary-font: 56px;
     --navbar-font: 16px;
     --paragraph-font: 20px;
     --adds-font: 18px;
@@ -17,4 +17,10 @@
 /* Font Family */
 :root {
     --font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--font-family);
 }
