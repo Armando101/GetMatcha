@@ -1,0 +1,25 @@
+.hero-bottom {
+    padding: 20px;
+}
+
+.hero-bottom h3 {
+    opacity: 0.6;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.hero-bottom__images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .hero-bottom__images {
+        flex-direction: column;
+    }
+    
+    .hero-bottom__images img {
+        margin-bottom: 30px;
+    }
+}
