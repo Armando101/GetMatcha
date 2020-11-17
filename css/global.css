@@ -1,0 +1,20 @@
+/* Colors */
+:root {
+    --primary: #025157;
+    --secondary: #67b54b;
+    --primary-background: #effbe8;
+    --secondary-background: #fffbf7;
+}
+
+/* Fonts size */
+:root {
+    --primary-font: 68px;
+    --navbar-font: 16px;
+    --paragraph-font: 20px;
+    --adds-font: 18px;
+}
+
+/* Font Family */
+:root {
+    --font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
